@@ -2,21 +2,20 @@
 
 class App
 {
+  /**
+   * Array to store error messages
+   */
   private static $errors = [];
 
-  //Three functions to handle simple API
+  /**
+   * The simple "v1" API
+   */
   public static function getAll20Products($data)
   {
     self::renderData($data);
   }
 
   private static function renderData($data)
-  {
-    self::sendHeaders();
-    echo json_encode($data, JSON_UNESCAPED_UNICODE);
-  }
-
-  private static function sendHeaders()
   {
     header('Content-Type: application/json; charset=UTF-8');
     header('Access-Control-Allow-Origin: *');
@@ -25,9 +24,18 @@ class App
       'Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept'
     );
     header('Referrer-Policy: no-referrer');
+    echo json_encode($data, JSON_UNESCAPED_UNICODE);
   }
 
-  //Functions to handle v2 API
+  /**
+   * Additions to handle "v2" API
+   *
+   * The main function that is called if queries are present in URL
+   * The order in which the functions within are carried out is important:
+   * 1. shuffle
+   * 2. filter by category
+   * 3. slice array of products to size of 'show'
+   */
   public static function handleGet($data)
   {
     shuffle($data);
@@ -53,6 +61,11 @@ class App
     }
     self::renderData($data);
   }
+
+  /**
+   * Helper functions to the main function
+   * What they handle is described in their names
+   */
 
   private static function handleCategory($data)
   {

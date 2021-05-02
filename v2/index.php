@@ -12,8 +12,4 @@ if (!$_GET) {
 
 App::handleGet($products_data);
 
-/* print_r($_GET);
-$request = $_SERVER['REQUEST_URI'];
-echo $request */
-
 ?>
