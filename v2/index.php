@@ -1,13 +1,12 @@
 <?php
 
 require_once '../App.php';
-require_once '../data.php';
 
 if (!$_GET) {
-  App::getAll20Products($products_data);
+  App::getAll20Products();
   exit;
 }
 
-App::handleGet($products_data);
+App::getFilteredProducts();
 
 ?>

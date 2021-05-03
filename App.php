@@ -9,10 +9,22 @@ class App
 
   /**
    * The simple "v1" API
+   * Main method:
    */
-  public static function getAll20Products($data)
+  public static function getAll20Products()
   {
+    $data = self::getData();
     self::renderData($data);
+  }
+
+  /**
+   * And helper methods:
+   */
+
+  private static function getData()
+  {
+    require 'data.php';
+    return $products_data;
   }
 
   private static function renderData($data)
@@ -30,16 +42,18 @@ class App
   /**
    * Additions to handle "v2" API
    *
-   * The main function that is called if queries are present in URL
-   * The order in which the functions within are carried out is important:
-   * 1. shuffle
-   * 2. filter by category
-   * 3. slice array of products to size of 'show'
+   * The main method that is called if queries are present in URL:
+   * The order in which the code within are carried out is important:
+   * 1. Shuffle
+   * 2. Filter by category
+   * 3. Slice array of products to size of 'show'
+   * Otherwise the desired result will not be achieved.
    */
-  public static function handleGet($data)
+  public static function getFilteredProducts()
   {
+    $data = self::getData();
     shuffle($data);
-    self::$errors = [];
+
     if (isset($_GET['category'])) {
       try {
         $data = self::handleCategory($data);
@@ -48,23 +62,24 @@ class App
       }
     }
 
-    if ($_GET['show']) {
+    if (isset($_GET['show'])) {
       try {
         $data = self::handleShow($data);
       } catch (Exception $error) {
         array_push(self::$errors, ['Category' => $error->getMessage()]);
       }
     }
+
     if (self::$errors) {
       self::renderData(self::$errors);
       exit();
     }
+
     self::renderData($data);
   }
 
   /**
-   * Helper functions to the main function
-   * What they handle is described in their names
+   * Additional helper methods for V2:
    */
 
   private static function handleCategory($data)
@@ -92,7 +107,7 @@ class App
   {
     $show = self::getQuery('show');
     if ($show < 1 || $show > 20 || $show % 1 !== 0) {
-      throw new Exception('Show must be between 1 and 20');
+      throw new Exception('Show must be a whole number between 1 and 20');
     }
     return array_slice($data, 0, $show);
   }
