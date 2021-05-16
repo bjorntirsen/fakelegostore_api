@@ -43,10 +43,18 @@ $products_data = [
     'id' => 4,
     'title' => 'Nintendo Entertainment System™',
     'description' =>
-      'Älskar du tv-spel? Spelade du Super Mario Bros.™ på den gamla goda tiden? Eller gillar du bara en praktisk och kreativ aktivitet på fritiden? I så fall är det nostalgiska modellsetet LEGO® Nintendo Entertainment System™ (71374) perfekt för dig. Det klossbyggda NES är packat med realistiska detaljer, inklusive ett öppningsbart fack med låsfunktion för spelkassetten och en handkontroll med kabel och kontakt.',
+      'Do you love video games? Did you play Super Mario Bros.™ back in the day? Or do you just enjoy a hands-on, creative activity in your spare time? If so, this nostalgic LEGO® Nintendo Entertainment System™ (71374) model kit is perfect for you. The brick-built NES is packed with realistic details, including an opening slot for the Game Pak with a locking function and a controller with a connecting cable and plug.',
+    'specification' =>
+      'Item: 71374,
+      Pieces: 2646,
+      Dimensions:
+      H: 10" (23cm)
+      W: 10" (24cm)
+      D: 7" (16cm),
+      ',
     'image' =>
       'https://www.pricerunner.se/product/640x640/3000576813/Lego-Super-Mario-Nintendo-Entertainment-System-71374.jpg',
-    'price' => 2699,
+    'price' => 229.99,
     'category' => 'creator',
   ],
   [
@@ -111,42 +119,72 @@ $products_data = [
   ],
   [
     'id' => 8,
-    'title' => 'Liebherr R 9800 grävmaskin',
+    'title' => 'Liebherr R 9800 Excavator',
     'description' =>
-      'Gör dig redo för en kolossal LEGO® bygg- och lekupplevelse med LEGO Technic Liebherr R 9800 grävmaskin med 4 108 delar. Denna kopia, som är utvecklad i samarbete med Liebherr, styrs via den intuitiva LEGO TECHNIC CONTROL+ appen och drivs av 2 avancerade smarthubbar med 7 motorer. Den sofistikerade appteknologin möjliggör exakta rörelser och fantastiska funktioner, samtidigt som den erbjuder oändliga autentiska digitala spelkombinationer via 4 olika kontrollskärmar med cool grafik. Multifunktionskontrollen gör det möjligt att köra maskinen i alla riktningar, rotera hytten, fälla ut och höja kranarmen, öppna och luta skopan, spela upp realistiska ljudeffekter och få direkt feedback om till exempel kranarmens position, strömförbrukning och körsträcka.',
+      'Get ready for a colossal LEGO® build and play experience with the 4,108-piece LEGO Technic™ Liebherr R 9800 Excavator. Developed in partnership with Liebherr, this replica model is operated via the intuitive LEGO TECHNIC CONTROL+ app and powered by 2 advanced Smart Hubs with 7 motors. The sophisticated app technology enables super-precise movement and amazing functionality, while delivering endless authentic digital play combinations via 4 different control screens with cool graphics. The Multi-function control screen enables users to drive the machine in all directions, rotate the superstructure, extend and raise the boom, open and tilt the bucket, play realistic sound effects and get real-time feedback, such as boom position, power usage and drive distance.',
+    'specification' =>
+      'Item: 42100,
+      Pieces: 4108,
+      Dimensions:
+      H: 15" (39cm)
+      W: 10" (27cm)
+      D: 25" (65cm),
+      ',
     'image' =>
       'https://www.pricerunner.se/product/640x640/1908396539/Lego-Technic-Liebherr-R-9800-Graevmaskin-42100.jpg',
-    'price' => 5699,
+    'price' => 449.99,
     'category' => 'technic',
   ],
   [
     'id' => 9,
-    'title' => 'Volvo 6x6 ledad lastbil',
+    'title' => '6x6 Volvo Articulated Hauler',
     'description' =>
-      'LEGO® Technic Volvo 6x6 ledad lastbil (42114) är en realistisk modellversion av Volvos största ledade lastbil och perfekt för barn som älskar byggfordon. Lastbilen drivs av 1 stor vinklad motor, 1 XL-motor och 1 L-motor med en Bluetooth-styrd smarthubb för realistisk funktionalitet.',
+      'A realistic model version of Volvo’s biggest articulated hauler, the LEGO® Technic™ 6x6 Volvo Articulated Hauler (42114) is ideal for kids who love construction vehicles. The truck is powered by 1 large angular position motor, 1 XL motor and 1 L motor with a Bluetooth controlled Smart Hub for realistic functionality.',
+    'specification' =>
+      'Item: 42114,
+      Pieces: 2193,
+      Dimensions:
+      H: 7" (20cm)
+      W: 7" (20cm)
+      D: 23" (60cm),
+      ',
     'image' =>
       'https://www.pricerunner.se/product/640x640/3000505032/Lego-Technic-Volvo-6x6-Articulated-Truck-42114.jpg',
-    'price' => 2799,
+    'price' => 249.99,
     'category' => 'technic',
   ],
   [
     'id' => 10,
     'title' => 'Porsche 911',
     'description' =>
-      'Hylla Porsches omisskännlig stil med denna fantastiska byggutmaning när du skapar din egen klassiska samlarbil med modellsetet LEGO® Porsche 911 (10295). Välj att bygga antingen Turbo-modellen med den turboladdade motorn eller Targa-modellen med den ikoniska Targa-bågen och det avtagbara taket som förvaras under huven.',
+      'Celebrate the unmistakable style of Porsche with this fantastic building challenge as you create your own classic, collectible car with the LEGO® Porsche 911 (10295) model kit. Choose to build either the Turbo model with its turbocharged engine or the Targa with its iconic Targa bar and a removable roof that stores under the hood.',
+    'specification' =>
+      'Item: 10295,
+      Pieces: 1458,
+      Dimensions:
+      H: 4" (10cm)
+      W: 14" (35cm)
+      D: 7" (16cm)',
     'image' =>
       'https://www.pricerunner.se/product/640x640/3001180357/Lego-Creator-Porsche-911-10295.jpg',
-    'price' => 1699,
+    'price' => 149.99,
     'category' => 'technic',
   ],
   [
     'id' => 11,
     'title' => "Dom's Dodge Charger",
     'description' =>
-      'Ge alla som gillar Fast & Furious den ultimata upplevelsen med byggsetet LEGO® Technic Dom’s Dodge Charger (42111) för barn och vuxna. Modellen är baserad på den ikoniska Dodge Charger R/T från 1970-talet och har massor av autentiska detaljer. Den öppningsbara motorhuven avslöjar en modellversion av den klassiska V8-motorn. Andra coola funktioner som ingår är rörliga kolvar, länkarmsfjädring, styrsystem och luftfläkt. Det finns till och med nitroflaskor i bagageutrymmet för att ge liv åt Doms vågade höghastighetsrace. Precis som i verkligheten!',
+      'Give fans of Fast & Furious the ultimate thrill with this LEGO® Technic™ Dom’s Dodge Charger (42111) building set for kids and adults. Based on the iconic 1970s Dodge Charger R/T, it’s packed with authentic details. The opening hood reveals a model version of the iconic V8 engine. Other cool features include moving pistons, wishbone suspension, steering system and air blower. There are even nitro bottles in the trunk to bring Dom’s daring high-speed chases to life. Just like the real thing!',
+    'specification' =>
+      'Item: 42111,
+      Pieces: 1077,
+      Dimensions:
+      H: 4" (11cm)
+      W: 6" (16cm)
+      D: 15" (39cm)',
     'image' =>
       'https://www.pricerunner.se/product/640x640/3000259155/Lego-Technic-Dom-s-Dodge-Charger-42111.jpg',
-    'price' => 1229,
+    'price' => 99,
     'category' => 'technic',
   ],
   [
@@ -171,32 +209,45 @@ $products_data = [
   ],
   [
     'id' => 14,
-    'title' => 'Extrem 4X4 terrängbil',
+    'title' => '4X4 X-treme Off-Roader',
     'description' =>
-      'Är du redo att ta din LEGO® lekupplevelse till en ny nivå? LEGO Technic™ Extrem 4x4 terrängbil drivs av en avancerad smarthubb med 3 motorer och kontrolleras via den intuitiva LEGO TECHNIC CONTROL+ appen. Den sofistikerade appteknologin möjliggör exakta rörelser och funktioner samtidigt som den erbjuder oändliga autentiska digitala spelkombinationer med autentiska ljudeffekter. Användare kan välja mellan olika kontrollskärmar för att köra framåt, bakåt, styra, gasa, bromsa och köra över hinder.',
+      'Are you ready to take your LEGO® play experience to another level? The LEGO Technic™ 4x4 X-treme Off-Roader is powered by an advanced Smart Hub with 3 motors and controlled via the intuitive LEGO TECHNIC CONTROL+ app. The sophisticated app technology enables super-precise movement and functionality, while delivering endless authentic digital play combinations with authentic sound effects. Users can choose from different control screens to drive forward, reverse, steer, accelerate, brake and traverse obstacles.',
+    'specification' =>
+      'Item: 42099,
+      Pieces: 958,
+      Dimensions:
+      H: 7" (19cm)
+      W: 8" (22cm)
+      D: 12" (33cm)',
     'image' =>
       'https://www.pricerunner.se/product/640x640/1903317861/Lego-Technic-4x4-X-Treme-Off-Roader-42099.jpg',
-    'price' => 2699,
+    'price' => 249.99,
     'category' => 'technic',
   ],
   [
     'id' => 15,
-    'title' => 'Robotuppfinnare',
+    'title' => 'Robot Inventor',
     'description' =>
-      'Ge dig in i den fantastiska fysiska och digitala världen med programmerbara, fjärrstyrda robotar och intelligenta skapelser. Med LEGO® MINDSTORMS® Robotuppfinnare (51515) kan unga robotfans bygga 5 unika, motoriserade robotar och fordon med den kostnadsfria appen LEGO MINDSTORMS Robotuppfinnare. De kan sedan ge liv åt en robot i taget genom att använda drag-och-släpp-programmering baserad på Scratch och slutföra roliga aktiviteter och utmanande uppdrag (en lista över kompatibla enheter finns påLEGO.com/devicecheck). Och med nästan 1 000 delar kommer barn att älska att skapa sina egna teknikleksaker och dela dem med andra robotfans på LEGO Life.',
+      'Enter the amazing physical and digital world of programmable, remote-control robots and intelligent creations. With LEGO® MINDSTORMS® Robot Inventor (51515), young robot fans build 5 unique, motorized robots and vehicles using the free LEGO MINDSTORMS Robot Inventor App. Then they bring them to life, one at a time, using the drag-and-drop coding environment based on Scratch and complete fun activities and challenging missions (visit LEGO.com/devicecheck for a list of compatible devices). And with almost 1,000 pieces, kids will love to come up with their own tech toy creations and share them with other robot fans on LEGO Life.',
+    'specification' =>
+      'Item: 51515,
+      Pieces: 949',
     'image' =>
       'https://www.pricerunner.se/product/640x640/3000646177/Lego-Mindstorms-Robot-Inventor-51515.jpg',
-    'price' => 3999,
+    'price' => 359.99,
     'category' => 'mindstorms',
   ],
   [
     'id' => 16,
-    'title' => 'Lego Mindstorms EV3',
+    'title' => 'LEGO® MINDSTORMS® EV3',
     'description' =>
-      'LEGO® MINDSTORMS® EV3 är här! Vi har kombinerat de oändliga möjligheterna med LEGO byggsystem och den mest avancerade tekniken någonsin. Släpp lös de kreativa krafterna hos LEGO MINDSTORMS EV3 setet och bygg och styr robotarna som kan gå, prata, tänka och göra vad som helst du kan komma på. Följ steg-för-steg-anvisningarna i 3D och bygg TRACK3R, R3PTAR, SPIK3R, EV3RSTORM samt GRIPP3R och ge dem liv med ett enkelt, intuitivt och ikonbaserat programmeringsgränssnitt. Använd fjärrkontrollen som medföljer och utför de utmanande uppdragen eller ladda ner den kostnadsfria appen och styr din robot med hjälp av din smartphone eller surfplatta. Vill du dela dina skapelser och bli inspirerad av andra?',
+      "Combining the versatility of the LEGO® building system with the most advanced technology we've ever developed, LEGO MINDSTORMS® EV3 lets you unleash a world of walking, talking and thinking robots that do anything you can imagine. Complete a series of challenging missions using the intuitive icon-based EV3 Programmer App for tablet devices to build and program TRACK3R, R3PTAR, SPIK3R, EV3RSTORM and GRIPP3R, and then create your own programs. Take your robotics skills to the next level with the companion EV3 Software for PC and Mac, with its more advanced yet familiar programming interface. For instant control, download the free Robot Commander app for smart devices or use the infrared remote control included with each set.",
+    'specification' =>
+      'Item: 31313,
+      Pieces: 601',
     'image' =>
       'https://www.pricerunner.se/product/640x640/1554156506/Lego-Mindstorms-EV3-31313.jpg',
-    'price' => 3399,
+    'price' => 339.99,
     'category' => 'mindstorms',
   ],
   [
